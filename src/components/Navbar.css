@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pfp {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.navbar div {
+    font-family: "Kufam", sans-serif;
+    line-height: 5px;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.name{
+    font-size: 1.1rem;
+}
+
+.id {
+    color: #343333;
+}
+
+.navbar button {
+    background-color: #4ea4ff;
+    border: none;
+    height: 40px;
+    padding-inline: 15px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}

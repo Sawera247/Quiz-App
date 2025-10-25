@@ -1,0 +1,151 @@
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Kufam", sans-serif;
+    width: 100%;
+    height: 90vh;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+    align-items: center;
+}
+
+.heading h2{
+    text-transform: capitalize;
+}
+
+.card {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px ;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total p{
+    color: #0f469a;
+}
+
+.quit{
+    border: none;
+    background: transparent;
+    color: red;
+    font-family: "Kufam", sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.question{
+    font-size: 1.3rem;
+}
+
+.options button{
+    display: block;
+    width: 100%;
+    text-align: left;
+    border: none;
+    margin-top: 20px;
+    padding: 15px ;
+    font-size: 1rem;
+    font-family: "Kufam", sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.nav-buttons{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.next, .previous {
+    font-family: "Kufam", sans-serif;
+    background-color: #0f469a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+.nav-buttons button {
+  cursor: pointer;
+}
+
+.nav-buttons button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.circle{
+    background-color: #407dd8;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.circle div{
+    background-color: #0f469a;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.scoreNum{
+    font-size: 1.6rem;
+}
+
+.back{
+    font-family: "Kufam", sans-serif;
+    font-size: 1rem;
+    border: none;
+    background-color: #0f469a;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.showing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0.7;
+}
+
+.go{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
